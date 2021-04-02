@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); 
+
+/* Navigation bar */
+
+.nav-bar {
+  width: 100%;
+  background: #E5E5E5;
+  overflow: hidden;
+  height: 80px;
+}
+
+.nav-bar a {
+  color: rgba(12, 1, 1, 0.64);
+  text-align: center;
+  display: flex;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  float: left;
+}
+
+.nav-bar a:hover {
+  background-color: #E7BABA;
+}
+
+.nav-bar-right {
+  float: right;
+}
+
+.shopping-cart-icon {
+  float: right;
+}
+
+/* Making the navbar responsive */
