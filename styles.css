@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
 }
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); 
+body {
+  background: #E5E5E5;
+}
+
 
 /* Navigation bar */
 
@@ -39,7 +44,7 @@
 
 /* Making the navbar responsive */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .nav-bar a:not(:first-child) {display: none;}
   .nav-bar a.icon {
     float: right;
@@ -59,4 +64,65 @@
     display: block;
     text-align: left;
   }
+} */
+
+/* Introduction to Plantas from the Sky */
+#intro-total {
+  /* width: 100%; */
 }
+
+
+.intro-title {
+  position: absolute;
+  height: 650px;
+  background-color: #E5E5E5;
+  text-align: center;
+  padding: 5% 1%;
+  width: 60%;
+  font-family: 'Merriweather', serif;
+}
+
+.intro-font{
+  font-weight: 700;
+  font-size: 70px;
+  padding: 5%;
+  width: 80%;
+  float: left;
+}
+
+.intro-font-light{
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  width: 80%;
+  float: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+.plant-button {
+  background-color: #E7BABA;
+  text-align: center;
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 5% 25%;
+  float: left;
+  vertical-align: top;
+}
+
+
+.intro-plant-img {
+  position: relative;
+  width: 35%;
+  float: right;
+  vertical-align: text-top;
+  align-content: center;
+  background: #E5E5E5;
+}
+
+
+
