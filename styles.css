@@ -176,33 +176,16 @@ body {
   text-decoration: none;
 }
 
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
   #bestsellers-all-plants img {
     width: 100%;
   }
 }
-/* 
-#bestsellers li {
-  display: flex;
-  border: 5px solid #555;
-  margin-left: 150px;
-  margin-right: 150px;
-  align-items: center;
-  justify-content: center;
-} */
 
-.bestsellers-buttons {
+/* Free delivery */
+
+#free-delivery {
+  background-color: #6F6565;
   width: 100%;
-  text-align: center;
-}
-
-.bestsellers-buttons li {
-  list-style-type: none;
-  border: 5px solid #555;
-  display: inline-block;
-  padding: 5px 20px;
-  margin: 0% 12%;
-
 }
