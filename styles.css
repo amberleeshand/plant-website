@@ -140,7 +140,7 @@ body {
   float: left;
   background-color: white;
   width: 100%;
-  height: 1000px;
+  height: 850px;
   color: rgba(12, 1, 1, 0.64);
 }
 
@@ -188,4 +188,25 @@ body {
 #free-delivery {
   background-color: #6F6565;
   width: 100%;
+  height: 200px;
+  position: relative;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.standard-delivery {
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  padding: 5% 0;
+}
+
+#plant-blog {
+  background-color: #E7BABA;
+  width: 100%;
+  height: 100px;
+  float: left;
+  text-align: center;
+  padding: 100px 0;
 }
