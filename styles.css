@@ -67,19 +67,20 @@ body {
 } */
 
 /* Introduction to Plantas from the Sky */
-#intro-total {
-  /* width: 100%; */
-}
+/* #intro-total {
+  width: 100%;
+} */
 
 
 .intro-title {
   position: absolute;
-  height: 650px;
+  height: 736px;
   background-color: #E5E5E5;
   text-align: center;
   padding: 5% 1%;
-  width: 60%;
+  width: 75%;
   font-family: 'Merriweather', serif;
+  color: rgba(12, 1, 1, 0.64);
 }
 
 .intro-font{
@@ -93,14 +94,15 @@ body {
 .intro-font-light{
   font-family: 'Merriweather', serif;
   font-weight: 300;
-  width: 80%;
+  width: 75%;
   float: left;
-  padding-left: 10%;
+  text-align: center;
+  padding-left: 15%;
   padding-right: 10%;
 }
 
 
-.plant-button {
+#plant-button {
   background-color: #E7BABA;
   color: rgba(12, 1, 1, 0.64);
   text-align: center;
@@ -110,12 +112,13 @@ body {
   padding: 15px 45px;
   text-decoration: none;
   font-size: 20px;
-  margin: 5% 28%;
+  margin: 5% 30.5%;
   float: left;
   vertical-align: top;
 }
 
-.plant-button:hover {
+
+#plant-button:hover {
   background-color: rgba(12, 1, 1, 0.64);
   color: #E7BABA;
 }
@@ -123,12 +126,83 @@ body {
 
 .intro-plant-img {
   position: relative;
-  width: 35%;
+  width: 45%;
   float: right;
   vertical-align: text-top;
   align-content: center;
   background: #E5E5E5;
 }
+/* Bestsellers */
+
+#bestsellers {
+  font-family: 'Merriweather', serif;
+  position: relative;
+  float: left;
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+  color: rgba(12, 1, 1, 0.64);
+}
+
+.bestsellers-title {
+  font-weight: 700;
+  font-size: 55px;
+  padding: 3.5%;
+  text-align: center;
+}
+#bestsellers-all-plants {
+  width: 100%;
+  text-align: center;
+}
+
+#bestsellers-all-plants img {
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin: 1.5%;
+  text-align: center;
+}
+#bestsellers-all-plants a {
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin: 1.5%;
+  text-align: center;
+  background-color: #E7BABA;
+  color: rgba(12, 1, 1, 0.64);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 45px;
+  text-decoration: none;
+}
 
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  #bestsellers-all-plants img {
+    width: 100%;
+  }
+}
+/* 
+#bestsellers li {
+  display: flex;
+  border: 5px solid #555;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+  justify-content: center;
+} */
 
+.bestsellers-buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.bestsellers-buttons li {
+  list-style-type: none;
+  border: 5px solid #555;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 0% 12%;
+
+}
