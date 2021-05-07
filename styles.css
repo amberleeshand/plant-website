@@ -127,6 +127,7 @@ body {
   font-weight: 300;
   text-align: center;
   margin: 5%;
+  
 }
 
 
@@ -163,10 +164,9 @@ body {
 #bestsellers {
   font-family: 'Merriweather', serif;
   position: relative;
-  float: left;
   background-color: white;
   width: 100%;
-  height: 850px;
+  /* height: 850px; */
   color: rgba(12, 1, 1, 0.64);
 }
 
@@ -177,41 +177,64 @@ body {
   text-align: center;
 }
 #bestsellers-all-plants {
+  display: flex;
   width: 100%;
+  text-align: center;
+  padding: 0 1em;
+}
+
+.bestsellers-img {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 1em;
+  justify-content: center;
+  vertical-align: top;
   text-align: center;
 }
 
+
+.bestsellers-img:first-of-type{
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #bestsellers-all-plants {
+    flex-direction: column;
+  }
+  .bestsellers-img {
+    margin-left: 0;
+    margin-top: 1em;
+  }
+  .bestsellers-img:first-of-type {
+    margin-top: 0;
+  }
+}
+
+
 #bestsellers-all-plants img {
-  float: left;
-  width: 30%;
-  height: 30%;
-  margin: 1.5%;
+  display: flex;
+  width: 100%;
+  /* height: 400px; */
+  /* margin: 1.5%; */
   text-align: center;
+  
 }
 #bestsellers-all-plants a {
-  float: left;
-  width: 30%;
-  height: 30%;
-  margin: 1.5%;
+  margin: 5.5% 0;
   text-align: center;
   background-color: #E7BABA;
   color: rgba(12, 1, 1, 0.64);
   text-transform: uppercase;
   font-weight: 700;
-  padding: 15px 45px;
+  padding: 10px 0px;
   text-decoration: none;
 }
 
 #bestsellers-all-plants a:hover {
   background-color: rgba(12, 1, 1, 0.64);
   color: #E7BABA;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  #bestsellers-all-plants img {
-    width: 100%;
-  }
 }
 
 /* Free delivery */
